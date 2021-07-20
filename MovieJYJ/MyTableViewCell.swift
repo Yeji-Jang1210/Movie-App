@@ -1,0 +1,23 @@
+//
+//  MyTableViewCell.swift
+//  MovieJYJ
+//
+//  Created by 소프트웨어컴퓨터 on 2021/05/24.
+//
+
+import UIKit
+
+class MyTableViewCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
