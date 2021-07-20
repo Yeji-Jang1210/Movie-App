@@ -6,24 +6,18 @@
 //
 
 import UIKit
+import WebKit
 
-class cinemaSiteViewController: UIViewController {
-
+class CinemaSiteViewController: UIViewController {
+    
+    var SiteURL = ""
+    @IBOutlet weak var CinemaSite: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let urlString = SiteURL
+        guard let url = URL(string:urlString) else { return }
+        let request = URLRequest(url:url)
+        CinemaSite.load(request)        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

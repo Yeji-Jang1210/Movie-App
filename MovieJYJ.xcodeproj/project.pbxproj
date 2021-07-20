@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68A95C6B2665ED4F0048A2BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95C6A2665ED4F0048A2BA /* DetailViewController.swift */; };
+		68A95C6E2665FF370048A2BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95C6D2665FF370048A2BA /* MapViewController.swift */; };
+		68A95C7326671A550048A2BA /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A95C7126671A550048A2BA /* up.png */; };
+		68A95C7426671A550048A2BA /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A95C7226671A550048A2BA /* zero.png */; };
+		68A95C7726671A730048A2BA /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A95C7626671A730048A2BA /* down.png */; };
 		68B8EA59265B602A008F9C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EA58265B602A008F9C49 /* AppDelegate.swift */; };
 		68B8EA5B265B602A008F9C49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EA5A265B602A008F9C49 /* SceneDelegate.swift */; };
 		68B8EA5D265B602A008F9C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EA5C265B602A008F9C49 /* ViewController.swift */; };
 		68B8EA60265B602A008F9C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B8EA5E265B602A008F9C49 /* Main.storyboard */; };
 		68B8EA62265B602C008F9C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B8EA61265B602C008F9C49 /* Assets.xcassets */; };
 		68B8EA65265B602C008F9C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B8EA63265B602C008F9C49 /* LaunchScreen.storyboard */; };
+		68B8EA6E265B6308008F9C49 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EA6D265B6308008F9C49 /* MyTableViewCell.swift */; };
+		68DE9F9826719F0D008CD4B1 /* cgv.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DE9F9526719F0D008CD4B1 /* cgv.png */; };
+		68DE9F9E2671A107008CD4B1 /* lottecinema.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DE9F9D2671A107008CD4B1 /* lottecinema.png */; };
+		68DE9FA62671A246008CD4B1 /* megabox.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DE9FA52671A246008CD4B1 /* megabox.png */; };
+		68DE9FAD2671A617008CD4B1 /* CinemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE9FAC2671A617008CD4B1 /* CinemaViewController.swift */; };
+		68DE9FB02671A703008CD4B1 /* CinemaSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE9FAF2671A703008CD4B1 /* CinemaSiteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68A95C6A2665ED4F0048A2BA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		68A95C6D2665FF370048A2BA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		68A95C7126671A550048A2BA /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		68A95C7226671A550048A2BA /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
+		68A95C7626671A730048A2BA /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 		68B8EA55265B602A008F9C49 /* MovieJYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieJYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B8EA58265B602A008F9C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B8EA5A265B602A008F9C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,12 @@
 		68B8EA61265B602C008F9C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B8EA64265B602C008F9C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B8EA66265B602C008F9C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B8EA6D265B6308008F9C49 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		68DE9F9526719F0D008CD4B1 /* cgv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cgv.png; sourceTree = "<group>"; };
+		68DE9F9D2671A107008CD4B1 /* lottecinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lottecinema.png; path = ../../../../Downloads/lottecinema.png; sourceTree = "<group>"; };
+		68DE9FA52671A246008CD4B1 /* megabox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = megabox.png; path = ../../../../Downloads/megabox.png; sourceTree = "<group>"; };
+		68DE9FAC2671A617008CD4B1 /* CinemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaViewController.swift; sourceTree = "<group>"; };
+		68DE9FAF2671A703008CD4B1 /* CinemaSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaSiteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,9 @@
 		68B8EA57265B602A008F9C49 /* MovieJYJ */ = {
 			isa = PBXGroup;
 			children = (
+				68DE9FA52671A246008CD4B1 /* megabox.png */,
+				68DE9F9D2671A107008CD4B1 /* lottecinema.png */,
+				68DE9F9526719F0D008CD4B1 /* cgv.png */,
 				68B8EA58265B602A008F9C49 /* AppDelegate.swift */,
 				68B8EA5A265B602A008F9C49 /* SceneDelegate.swift */,
 				68B8EA5C265B602A008F9C49 /* ViewController.swift */,
@@ -63,6 +88,14 @@
 				68B8EA61265B602C008F9C49 /* Assets.xcassets */,
 				68B8EA63265B602C008F9C49 /* LaunchScreen.storyboard */,
 				68B8EA66265B602C008F9C49 /* Info.plist */,
+				68B8EA6D265B6308008F9C49 /* MyTableViewCell.swift */,
+				68A95C6A2665ED4F0048A2BA /* DetailViewController.swift */,
+				68A95C6D2665FF370048A2BA /* MapViewController.swift */,
+				68A95C7626671A730048A2BA /* down.png */,
+				68A95C7126671A550048A2BA /* up.png */,
+				68A95C7226671A550048A2BA /* zero.png */,
+				68DE9FAC2671A617008CD4B1 /* CinemaViewController.swift */,
+				68DE9FAF2671A703008CD4B1 /* CinemaSiteViewController.swift */,
 			);
 			path = MovieJYJ;
 			sourceTree = "<group>";
@@ -125,8 +158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B8EA65265B602C008F9C49 /* LaunchScreen.storyboard in Resources */,
+				68DE9FA62671A246008CD4B1 /* megabox.png in Resources */,
+				68DE9F9826719F0D008CD4B1 /* cgv.png in Resources */,
+				68A95C7426671A550048A2BA /* zero.png in Resources */,
 				68B8EA62265B602C008F9C49 /* Assets.xcassets in Resources */,
+				68A95C7326671A550048A2BA /* up.png in Resources */,
 				68B8EA60265B602A008F9C49 /* Main.storyboard in Resources */,
+				68DE9F9E2671A107008CD4B1 /* lottecinema.png in Resources */,
+				68A95C7726671A730048A2BA /* down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B8EA5D265B602A008F9C49 /* ViewController.swift in Sources */,
+				68A95C6E2665FF370048A2BA /* MapViewController.swift in Sources */,
+				68DE9FB02671A703008CD4B1 /* CinemaSiteViewController.swift in Sources */,
+				68DE9FAD2671A617008CD4B1 /* CinemaViewController.swift in Sources */,
+				68B8EA6E265B6308008F9C49 /* MyTableViewCell.swift in Sources */,
+				68A95C6B2665ED4F0048A2BA /* DetailViewController.swift in Sources */,
 				68B8EA59265B602A008F9C49 /* AppDelegate.swift in Sources */,
 				68B8EA5B265B602A008F9C49 /* SceneDelegate.swift in Sources */,
 			);
