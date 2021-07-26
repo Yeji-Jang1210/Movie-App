@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="BOXOFFICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-Kx-zix">
-                                <rect key="frame" x="94.5" y="93" width="225.5" height="48"/>
+                                <rect key="frame" x="94.5" y="93" width="225" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,15 +117,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="SvJ-zr-dG5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="07l-VQ-Tnm"/>
                             <constraint firstItem="XU9-v9-mY6" firstAttribute="centerX" secondItem="QFX-Kx-zix" secondAttribute="centerX" id="5Gj-Y4-7sf"/>
                             <constraint firstItem="QFX-Kx-zix" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Pkf-6R-DSL"/>
                             <constraint firstItem="QFX-Kx-zix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qgq-eO-5qN"/>
-                            <constraint firstItem="QFX-Kx-zix" firstAttribute="trailing" secondItem="SvJ-zr-dG5" secondAttribute="trailing" constant="-35" id="RtV-cz-OPm"/>
                             <constraint firstItem="SvJ-zr-dG5" firstAttribute="top" secondItem="QFX-Kx-zix" secondAttribute="bottom" constant="5" id="T3Q-6T-Tc6"/>
                             <constraint firstItem="XU9-v9-mY6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UIR-d4-HXV"/>
                             <constraint firstItem="XU9-v9-mY6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Y1o-6g-ZUm"/>
                             <constraint firstItem="XU9-v9-mY6" firstAttribute="top" secondItem="SvJ-zr-dG5" secondAttribute="bottom" constant="5" id="enh-o6-FMk"/>
-                            <constraint firstItem="SvJ-zr-dG5" firstAttribute="leading" secondItem="QFX-Kx-zix" secondAttribute="leading" constant="-35" id="of8-VQ-W4h"/>
                             <constraint firstItem="XU9-v9-mY6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="yfL-bV-jlj"/>
                         </constraints>
                     </view>
