@@ -181,9 +181,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Udt-ln-RjC">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Udt-ln-RjC">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -193,6 +192,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PRr-xs-1tz"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Udt-ln-RjC" firstAttribute="top" secondItem="PRr-xs-1tz" secondAttribute="top" id="29N-WJ-Akr"/>
+                            <constraint firstItem="Udt-ln-RjC" firstAttribute="leading" secondItem="PRr-xs-1tz" secondAttribute="leading" id="S8s-60-Xk4"/>
+                            <constraint firstItem="Udt-ln-RjC" firstAttribute="trailing" secondItem="PRr-xs-1tz" secondAttribute="trailing" id="ati-b2-88Z"/>
+                            <constraint firstItem="Udt-ln-RjC" firstAttribute="bottom" secondItem="PRr-xs-1tz" secondAttribute="bottom" id="yvc-0t-Qh1"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="theater" image="map.fill" catalog="system" id="3Sz-kg-gzl"/>
                     <connections>
